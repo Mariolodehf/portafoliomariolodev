@@ -7,3 +7,29 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+/*display flex acomoda para que el header quede a lo largo de la pagina*/
+.header {
+  display: flex;
+  justify-content: space-between; /*Para ocupar el espacio entre los elementos de forma igual*/
+  padding: 15px;
+}
+
+.header--img {
+  width: 80px;
+  height: 80px;
+}
+
+.header--list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
