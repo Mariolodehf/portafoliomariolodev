@@ -1,0 +1,32 @@
+:root {
+  --brand-color: #1836b2;
+  /* #664A87
+  #587F99
+  #FFFFFF*/
+  --decoration-color: #000000;
+
+  --button-color: #ff8504;
+  /* #FFDB04
+  #4B4F5D
+*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--decoration-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--decoration);
+}
